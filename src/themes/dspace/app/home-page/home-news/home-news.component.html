@@ -1,5 +1,17 @@
 <div class="background-image-container">
-  <div class="container">
+
+    <div class="d-flex div-flex flex-column banner">
+      <img alt="" [src]="'assets/dspace/images/logo-ri.png'" />
+      <div class="search">
+        <ds-search-form
+          [inPlaceSearch]="false"
+          [searchPlaceholder]="'home.search-form.placeholder' | translate"
+        ></ds-search-form>
+      </div>
+
+  
+  </div> 
+  <!-- <div class="container">
     <div class="jumbotron jumbotron-fluid">
       <div class="d-flex flex-wrap">
         <div>
@@ -35,5 +47,5 @@
     <source type="image/jpg" srcset="assets/dspace/images/banner.jpg 2000w, assets/dspace/images/banner-half.jpg 1200w, assets/dspace/images/banner-tall.jpg 768w">
     <img alt="" [src]="'assets/dspace/images/banner.jpg'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
   </picture>
-  <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small>
+  <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small> -->
 </div>

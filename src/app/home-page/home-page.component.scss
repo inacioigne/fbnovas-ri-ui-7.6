@@ -1,2 +1,40 @@
-:host {
-}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    justify-content: space-between;
+
+  }
+
+
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    width: 140px;
+    margin: 12px;
+    justify-content: center;
+    transition: .15s all ease-in-out;
+
+  }
+.card:hover {
+    transform: scale(1.1);
+  }
+.card a {
+    text-decoration: none;
+    padding: 12px 12px 0px 12px;
+    color: #03A9F4;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+.card a img {
+    height: 100px;
+  }
+  .card a p {
+    font-size: 14px;
+    text-align: center;
+
+  }

@@ -3,7 +3,85 @@
   <ng-container *ngIf="(site$ | async) as site">
     <ds-view-tracker [object]="site"></ds-view-tracker>
   </ng-container>
+  <!-- COLEÇÕES -->
+  <div class="d-flex flex-row border-bottom mb-4 pb-4 ng-tns-c416-2"></div>
+  <h2>Coleções do Repositório</h2>
+  <div class="wrapper">
+    <div class="card">
+      <a href="collections/dcdecd0c-859f-4f12-aaee-d391a8035617" target="_blank">
+        <img src="assets\images\collections\adm.jpg" alt="" />
+        <p>Administração</p>
+      </a>
+    </div>
+     <div class="card">
+      <a href="collections/0450b48d-af1b-4469-bc42-4d6b54aed3bc" target="_blank">
+        <img src="assets\images\collections\contabeis.jpg" alt="" />
+        <p>Ciências Contabeis</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="collections/1e5a292d-7e62-410a-94dd-14dddb6fb590" target="_blank">
+        <img src="assets\images\collections\religiao.png" alt="" />
+        <p>Ciências da Religião</p>
+      </a>
+    </div>
+    <div class="card">
+        <a href="collections/dccb6562-b37f-48c9-9803-cfac08e8646d" >
+          <img src="assets\images\collections\teologicas.png" alt="" />
+          <p>Ciências Teológicas</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="collections/bc04cfce-2ac1-48e4-8ccd-185795083c14" >
+          <img src="assets\images\collections\jornalismo.png" alt="" />
+          <p>Jornalismo</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="collections/5371b0e7-2871-4bb1-b6fa-2beed5a2a7c6" >
+          <img src="assets\images\collections\direito.png" alt="" />
+          <p>Direito</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="collections/054460f7-c8f6-4cfc-916c-18635d2d0f17" >
+          <img src="assets\images\collections\pedagogia.png" alt="" />
+          <p>Pedagogia</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="collections/20ca9b67-6c01-4060-bbef-b5c595c2e917">
+          <img src="assets\images\collections\psicologia.png" alt="" />
+          <p>Psicologia</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="communities/23d81301-fdfb-4365-a309-e2d4f22a3941" >
+          <img src="assets\images\collections\manuais.png" alt="" />
+          <p>Manuais</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="communities/73ea0a5d-1718-427a-8883-e4aed440b2e6" >
+          <img src="assets\images\collections\docentes.png" alt="" />
+          <p>Produção de Docentes</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="communities/7e9182de-4ae1-4731-96e1-5dbbc70771ab" >
+          <img src="assets\images\collections\eventos.png" alt="" />
+          <p>Publicações em Eventos</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="communities/99556630-b3d2-42d2-a982-006260a84296" >
+          <img src="assets\images\collections\pos.png" alt="" />
+          <p>Pós-graduação</p>
+        </a>
+      </div>
+  </div>
   <ds-themed-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-themed-search-form>
   <ds-themed-top-level-community-list></ds-themed-top-level-community-list>
   <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
 </div>
+  
